@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32C61641CA6C2D700C9627E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61631CA6C2D700C9627E /* AppDelegate.swift */; };
+		D32C61661CA6C2D700C9627E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61651CA6C2D700C9627E /* GameScene.swift */; };
+		D32C61681CA6C2D700C9627E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D32C61671CA6C2D700C9627E /* GameScene.sks */; };
+		D32C616A1CA6C2D700C9627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32C61691CA6C2D700C9627E /* Assets.xcassets */; };
+		D32C616D1CA6C2D700C9627E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32C616B1CA6C2D700C9627E /* MainMenu.xib */; };
+		D32C61781CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61771CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift */; };
+		D32C61831CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61821CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32C61741CA6C2D700C9627E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32C61581CA6C2D700C9627E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32C615F1CA6C2D700C9627E;
+			remoteInfo = "Simple Shooter For OSX";
+		};
+		D32C617F1CA6C2D700C9627E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32C61581CA6C2D700C9627E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32C615F1CA6C2D700C9627E;
+			remoteInfo = "Simple Shooter For OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32C61601CA6C2D700C9627E /* Simple Shooter For OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Shooter For OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C61631CA6C2D700C9627E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32C61651CA6C2D700C9627E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D32C61671CA6C2D700C9627E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D32C61691CA6C2D700C9627E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32C616C1CA6C2D700C9627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D32C616E1CA6C2D700C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C61731CA6C2D700C9627E /* Simple Shooter For OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Shooter For OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C61771CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Shooter_For_OSXTests.swift; sourceTree = "<group>"; };
+		D32C61791CA6C2D700C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C617E1CA6C2D700C9627E /* Simple Shooter For OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Shooter For OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C61821CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Shooter_For_OSXUITests.swift; sourceTree = "<group>"; };
+		D32C61841CA6C2D700C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32C615D1CA6C2D700C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C61701CA6C2D700C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C617B1CA6C2D700C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32C61571CA6C2D700C9627E = {
+			isa = PBXGroup;
+			children = (
+				D32C61621CA6C2D700C9627E /* Simple Shooter For OSX */,
+				D32C61761CA6C2D700C9627E /* Simple Shooter For OSXTests */,
+				D32C61811CA6C2D700C9627E /* Simple Shooter For OSXUITests */,
+				D32C61611CA6C2D700C9627E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32C61611CA6C2D700C9627E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32C61601CA6C2D700C9627E /* Simple Shooter For OSX.app */,
+				D32C61731CA6C2D700C9627E /* Simple Shooter For OSXTests.xctest */,
+				D32C617E1CA6C2D700C9627E /* Simple Shooter For OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32C61621CA6C2D700C9627E /* Simple Shooter For OSX */ = {
+			isa = PBXGroup;
+			children = (
+				D32C61631CA6C2D700C9627E /* AppDelegate.swift */,
+				D32C61651CA6C2D700C9627E /* GameScene.swift */,
+				D32C61671CA6C2D700C9627E /* GameScene.sks */,
+				D32C61691CA6C2D700C9627E /* Assets.xcassets */,
+				D32C616B1CA6C2D700C9627E /* MainMenu.xib */,
+				D32C616E1CA6C2D700C9627E /* Info.plist */,
+			);
+			path = "Simple Shooter For OSX";
+			sourceTree = "<group>";
+		};
+		D32C61761CA6C2D700C9627E /* Simple Shooter For OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32C61771CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift */,
+				D32C61791CA6C2D700C9627E /* Info.plist */,
+			);
+			path = "Simple Shooter For OSXTests";
+			sourceTree = "<group>";
+		};
+		D32C61811CA6C2D700C9627E /* Simple Shooter For OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32C61821CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift */,
+				D32C61841CA6C2D700C9627E /* Info.plist */,
+			);
+			path = "Simple Shooter For OSXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32C615F1CA6C2D700C9627E /* Simple Shooter For OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C61871CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSX" */;
+			buildPhases = (
+				D32C615C1CA6C2D700C9627E /* Sources */,
+				D32C615D1CA6C2D700C9627E /* Frameworks */,
+				D32C615E1CA6C2D700C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Shooter For OSX";
+			productName = "Simple Shooter For OSX";
+			productReference = D32C61601CA6C2D700C9627E /* Simple Shooter For OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32C61721CA6C2D700C9627E /* Simple Shooter For OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C618A1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXTests" */;
+			buildPhases = (
+				D32C616F1CA6C2D700C9627E /* Sources */,
+				D32C61701CA6C2D700C9627E /* Frameworks */,
+				D32C61711CA6C2D700C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32C61751CA6C2D700C9627E /* PBXTargetDependency */,
+			);
+			name = "Simple Shooter For OSXTests";
+			productName = "Simple Shooter For OSXTests";
+			productReference = D32C61731CA6C2D700C9627E /* Simple Shooter For OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32C617D1CA6C2D700C9627E /* Simple Shooter For OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C618D1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXUITests" */;
+			buildPhases = (
+				D32C617A1CA6C2D700C9627E /* Sources */,
+				D32C617B1CA6C2D700C9627E /* Frameworks */,
+				D32C617C1CA6C2D700C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32C61801CA6C2D700C9627E /* PBXTargetDependency */,
+			);
+			name = "Simple Shooter For OSXUITests";
+			productName = "Simple Shooter For OSXUITests";
+			productReference = D32C617E1CA6C2D700C9627E /* Simple Shooter For OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32C61581CA6C2D700C9627E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = codebluapps;
+				TargetAttributes = {
+					D32C615F1CA6C2D700C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D32C61721CA6C2D700C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D32C615F1CA6C2D700C9627E;
+					};
+					D32C617D1CA6C2D700C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D32C615F1CA6C2D700C9627E;
+					};
+				};
+			};
+			buildConfigurationList = D32C615B1CA6C2D700C9627E /* Build configuration list for PBXProject "Simple Shooter For OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32C61571CA6C2D700C9627E;
+			productRefGroup = D32C61611CA6C2D700C9627E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32C615F1CA6C2D700C9627E /* Simple Shooter For OSX */,
+				D32C61721CA6C2D700C9627E /* Simple Shooter For OSXTests */,
+				D32C617D1CA6C2D700C9627E /* Simple Shooter For OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32C615E1CA6C2D700C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C616A1CA6C2D700C9627E /* Assets.xcassets in Resources */,
+				D32C61681CA6C2D700C9627E /* GameScene.sks in Resources */,
+				D32C616D1CA6C2D700C9627E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C61711CA6C2D700C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C617C1CA6C2D700C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32C615C1CA6C2D700C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C61661CA6C2D700C9627E /* GameScene.swift in Sources */,
+				D32C61641CA6C2D700C9627E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C616F1CA6C2D700C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C61781CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C617A1CA6C2D700C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C61831CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32C61751CA6C2D700C9627E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32C615F1CA6C2D700C9627E /* Simple Shooter For OSX */;
+			targetProxy = D32C61741CA6C2D700C9627E /* PBXContainerItemProxy */;
+		};
+		D32C61801CA6C2D700C9627E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32C615F1CA6C2D700C9627E /* Simple Shooter For OSX */;
+			targetProxy = D32C617F1CA6C2D700C9627E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32C616B1CA6C2D700C9627E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32C616C1CA6C2D700C9627E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32C61851CA6C2D700C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32C61861CA6C2D700C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D32C61881CA6C2D700C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Shooter For OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32C61891CA6C2D700C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Shooter For OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32C618B1CA6C2D700C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Simple Shooter For OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Shooter For OSX.app/Contents/MacOS/Simple Shooter For OSX";
+			};
+			name = Debug;
+		};
+		D32C618C1CA6C2D700C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Shooter For OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Shooter For OSX.app/Contents/MacOS/Simple Shooter For OSX";
+			};
+			name = Release;
+		};
+		D32C618E1CA6C2D700C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Simple Shooter For OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Simple Shooter For OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D32C618F1CA6C2D700C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Shooter For OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Simple Shooter For OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32C615B1CA6C2D700C9627E /* Build configuration list for PBXProject "Simple Shooter For OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C61851CA6C2D700C9627E /* Debug */,
+				D32C61861CA6C2D700C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32C61871CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C61881CA6C2D700C9627E /* Debug */,
+				D32C61891CA6C2D700C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32C618A1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C618B1CA6C2D700C9627E /* Debug */,
+				D32C618C1CA6C2D700C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32C618D1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C618E1CA6C2D700C9627E /* Debug */,
+				D32C618F1CA6C2D700C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32C61581CA6C2D700C9627E /* Project object */;
+}
