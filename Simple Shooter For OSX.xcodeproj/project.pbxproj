@@ -14,6 +14,12 @@
 		D32C616D1CA6C2D700C9627E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32C616B1CA6C2D700C9627E /* MainMenu.xib */; };
 		D32C61781CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61771CA6C2D700C9627E /* Simple_Shooter_For_OSXTests.swift */; };
 		D32C61831CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61821CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift */; };
+		D32C61921CA703B900C9627E /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = D32C61901CA703B900C9627E /* Explosion.sks */; };
+		D32C61931CA703B900C9627E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D32C61911CA703B900C9627E /* spark.png */; };
+		D32C61951CA7055A00C9627E /* GameoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C61941CA7055A00C9627E /* GameoverScene.swift */; };
+		D32C61971CA7056500C9627E /* GameoverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D32C61961CA7056500C9627E /* GameoverScene.sks */; };
+		D32C61991CA705ED00C9627E /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D32C61981CA705ED00C9627E /* TitleScene.sks */; };
+		D32C619B1CA705F900C9627E /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C619A1CA705F900C9627E /* TitleScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D32C617E1CA6C2D700C9627E /* Simple Shooter For OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Shooter For OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32C61821CA6C2D700C9627E /* Simple_Shooter_For_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Shooter_For_OSXUITests.swift; sourceTree = "<group>"; };
 		D32C61841CA6C2D700C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C61901CA703B900C9627E /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		D32C61911CA703B900C9627E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D32C61941CA7055A00C9627E /* GameoverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameoverScene.swift; sourceTree = "<group>"; };
+		D32C61961CA7056500C9627E /* GameoverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameoverScene.sks; sourceTree = "<group>"; };
+		D32C61981CA705ED00C9627E /* TitleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		D32C619A1CA705F900C9627E /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				D32C61691CA6C2D700C9627E /* Assets.xcassets */,
 				D32C616B1CA6C2D700C9627E /* MainMenu.xib */,
 				D32C616E1CA6C2D700C9627E /* Info.plist */,
+				D32C61901CA703B900C9627E /* Explosion.sks */,
+				D32C61911CA703B900C9627E /* spark.png */,
+				D32C61941CA7055A00C9627E /* GameoverScene.swift */,
+				D32C61961CA7056500C9627E /* GameoverScene.sks */,
+				D32C619A1CA705F900C9627E /* TitleScene.swift */,
+				D32C61981CA705ED00C9627E /* TitleScene.sks */,
 			);
 			path = "Simple Shooter For OSX";
 			sourceTree = "<group>";
@@ -193,13 +211,16 @@
 				TargetAttributes = {
 					D32C615F1CA6C2D700C9627E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 					};
 					D32C61721CA6C2D700C9627E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D32C615F1CA6C2D700C9627E;
 					};
 					D32C617D1CA6C2D700C9627E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D32C615F1CA6C2D700C9627E;
 					};
 				};
@@ -229,9 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32C61971CA7056500C9627E /* GameoverScene.sks in Resources */,
+				D32C61931CA703B900C9627E /* spark.png in Resources */,
 				D32C616A1CA6C2D700C9627E /* Assets.xcassets in Resources */,
+				D32C61921CA703B900C9627E /* Explosion.sks in Resources */,
 				D32C61681CA6C2D700C9627E /* GameScene.sks in Resources */,
 				D32C616D1CA6C2D700C9627E /* MainMenu.xib in Resources */,
+				D32C61991CA705ED00C9627E /* TitleScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +283,8 @@
 			files = (
 				D32C61661CA6C2D700C9627E /* GameScene.swift in Sources */,
 				D32C61641CA6C2D700C9627E /* AppDelegate.swift in Sources */,
+				D32C61951CA7055A00C9627E /* GameoverScene.swift in Sources */,
+				D32C619B1CA705F900C9627E /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -405,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -418,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Shooter For OSX.app/Contents/MacOS/Simple Shooter For OSX";
 			};
 			name = Debug;
@@ -431,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Shooter For OSX.app/Contents/MacOS/Simple Shooter For OSX";
 			};
 			name = Release;
@@ -444,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Simple Shooter For OSX";
 				USES_XCTRUNNER = YES;
 			};
@@ -457,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Simple-Shooter-For-OSXUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Simple Shooter For OSX";
 				USES_XCTRUNNER = YES;
 			};
@@ -481,6 +514,7 @@
 				D32C61891CA6C2D700C9627E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32C618A1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +523,7 @@
 				D32C618C1CA6C2D700C9627E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32C618D1CA6C2D700C9627E /* Build configuration list for PBXNativeTarget "Simple Shooter For OSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +532,7 @@
 				D32C618F1CA6C2D700C9627E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
